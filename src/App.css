@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 550px) {
+  main {
+    max-height: 900px;
+    flex-direction: row;
+  }
+}

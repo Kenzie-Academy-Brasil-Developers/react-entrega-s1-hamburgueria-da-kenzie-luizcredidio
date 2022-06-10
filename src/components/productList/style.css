@@ -1,0 +1,20 @@
+.vitrine{
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 0%;
+    scrollbar-width: none;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+@media (min-width: 550px) {
+    .vitrine{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}

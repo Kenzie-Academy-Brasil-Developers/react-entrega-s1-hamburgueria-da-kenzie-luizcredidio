@@ -1,0 +1,50 @@
+.liCart + .liCart {
+  margin-top: 5px;
+}
+
+.liCart {
+  width: 90%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  background: #f5f5f5;
+}
+
+.cartProductImg {
+  height: 90px;
+  width: 90px;
+  left: 23.453369140625px;
+  top: 25px;
+  background: #e0e0e0;
+  border-radius: 5px;
+}
+
+.divNomeProductCart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.h2ProductCart {
+  font-size: 16px;
+  margin-top: 0%;
+}
+
+.priceProductCart {
+  font-size: 12px;
+  color: #828282;
+}
+
+.btnRemoveFromCart {
+  width: 25%;
+  border: 0;
+  background-color: transparent;
+  color: #bdbdbd;
+  align-self: flex-start;
+}
+
+@media (min-width: 550px) {
+  .liCart {
+    flex-wrap: wrap;
+  }
+}
